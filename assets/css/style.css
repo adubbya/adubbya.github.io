@@ -83,7 +83,7 @@ h3 {
     height: 200px;
 }
 
-#port-image {
+.port-image {
     float: left;
     padding: 20px;
 }
