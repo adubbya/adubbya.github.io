@@ -1,17 +1,10 @@
 /**
- First External CSS Stylesheet
+External CSS Stylesheet
  **/
 
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
-*/
 body {
     padding: 20px;
     margin: 0;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
     line-height: 100%;
     color: #333;
     background: #efeee7;
@@ -25,10 +18,11 @@ header {
     border-style: solid;     
     text-align: center;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
 }
 
 h1 {
+    float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 28px;
     padding: 20px 0;
@@ -39,12 +33,13 @@ h1 {
 }
 
 h2 {
-    font-family: 
+    font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
 }
 
-a {
-    color: #d21034;
+h3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -52,42 +47,52 @@ a {
     margin: 0 auto;
 }
 
+#name {
+    float: left;
+    width: 10px;
+}
+
 #main-bio,
 #contact-info,
 #bio-image {
-    float: left;
-    padding: 10px;
-    overflow: auto;
+    margin: 0 auto;
 }
 
 
 #main-bio {
+    float: left;
     width: 650px;
     background: #fff;
+    border-width: 1px;
     border-color: #ddd;
-    border-style: none;
+    border-style: solid;
+    padding: 10px;
 }
 
 #contact-info {
+    float: right;
     width: 270px;
     background: #fff;
+    border-width: 1px;
     border-color: #ddd;
-    border-style: none;
+    border-style: solid;
 }
 
 #bio-image {
-    position: relative;
     width: 200px;
     height: 200px;
+}
+
+#port-image {
+    float: left;
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 footer {
     background-color: #666;
     margin-bottom: -50px;
     padding: 10px;
-    border-top: 5px;
+    border-top-style: solid;
     border-color: #4aaaa5;
     clear: both;
 }
