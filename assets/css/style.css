@@ -47,11 +47,6 @@ h3 {
     margin: 0 auto;
 }
 
-#name {
-    float: left;
-    width: 10px;
-}
-
 #main-bio,
 #contact-info,
 #bio-image {
